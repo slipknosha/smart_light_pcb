@@ -1741,168 +1741,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:ESD9B3.3ST5G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD9B3.3ST5G"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-923"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?923*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD9B3.3ST5G_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD9B3.3ST5G_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Isolator:LTV-814"
 			(pin_names
 				(offset 1.016)
@@ -2925,377 +2763,6 @@
 					(at 0 -5.08 90)
 					(length 3.8862)
 					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-Coil:Ferrite_470Ohm_0603_1.0A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "470 Ohm"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.murata.com/en-global/api/pdfdownloadapi?cate=luNoiseSupprFilteChipFerriBead&partno=BLM18PG471SN1%23"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "NDUC-12579"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Frequency" "100MHz"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun inductor choke coil reactor magnetic ferrite"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Ferrite_470Ohm_0603_1.0A_0_1"
-				(polyline
-					(pts
-						(xy -1.905 1.016) (xy -1.651 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.762) (xy -1.905 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 0)
-					(mid -1.524 0.5058)
-					(end -1.016 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 1.016) (xy -1.143 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 0.762) (xy -1.397 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.635 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.762) (xy -0.889 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 0)
-					(mid -0.508 0.5058)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 1.016) (xy -0.127 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 0.762) (xy -0.381 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.127 1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 0.762) (xy 0.127 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.508 0.5058)
-					(end 1.016 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.016) (xy 0.889 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0.762) (xy 0.635 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 1.016) (xy 1.397 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 0.762) (xy 1.143 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 0)
-					(mid 1.524 0.5058)
-					(end 2.032 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 1.905 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0.762) (xy 1.651 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Ferrite_470Ohm_0603_1.0A_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.508)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5942,7 +5409,7 @@
 		(uuid "0ee8755d-6f5d-4ea4-9ed9-8014850ba8ec")
 	)
 	(junction
-		(at 92.71 68.58)
+		(at 87.63 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "167fe44a-af57-4c7a-8835-b5c6bfe62562")
@@ -6044,12 +5511,6 @@
 		(uuid "8031133a-5020-40cd-b79e-ee55b250680a")
 	)
 	(junction
-		(at 71.12 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9543a04c-9d4b-4937-a612-aed342a3ba36")
-	)
-	(junction
 		(at 203.2 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6066,12 +5527,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a922a621-dd59-441b-ac85-fa236ba94193")
-	)
-	(junction
-		(at 74.295 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b812045a-dba5-4894-b7df-a83fe46ec2eb")
 	)
 	(junction
 		(at 54.61 41.91)
@@ -6219,7 +5674,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 62.23) (xy 92.71 68.58)
+			(xy 87.63 62.23) (xy 87.63 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6259,16 +5714,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 71.12 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0871c2ad-caa7-4073-a200-c61e5ef00722")
-	)
-	(wire
-		(pts
 			(xy 66.04 52.07) (xy 54.61 52.07)
 		)
 		(stroke
@@ -6289,7 +5734,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 74.93 68.58)
+			(xy 71.12 68.58) (xy 77.47 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6299,7 +5744,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 46.99) (xy 92.71 52.07)
+			(xy 87.63 46.99) (xy 87.63 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6459,7 +5904,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 52.07) (xy 74.93 52.07)
+			(xy 71.12 52.07) (xy 77.47 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6659,7 +6104,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 99.06 68.58)
+			(xy 87.63 68.58) (xy 93.98 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6669,7 +6114,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 90.17 68.58)
+			(xy 87.63 68.58) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6726,16 +6171,6 @@
 			(type default)
 		)
 		(uuid "520b9525-5ae8-41d5-8ef1-e8455c5e034a")
-	)
-	(wire
-		(pts
-			(xy 80.01 68.58) (xy 82.55 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "533ab7e1-ad34-4dbc-bb5f-7c6a61a6096f")
 	)
 	(wire
 		(pts
@@ -7129,17 +6564,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 81.28 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98217d83-ac9a-454f-82be-7354f3366c62")
-	)
-	(wire
-		(pts
-			(xy 59.69 160.02) (xy 71.12 160.02)
+			(xy 59.69 160.02) (xy 81.28 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7159,16 +6584,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 168.91) (xy 71.12 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a53427f5-ec60-4bf9-b7f5-63ceb2e20da7")
-	)
-	(wire
-		(pts
 			(xy 191.77 123.19) (xy 191.77 128.27)
 		)
 		(stroke
@@ -7176,16 +6591,6 @@
 			(type default)
 		)
 		(uuid "a5716159-71ea-4d99-8b93-b93b5d196fc6")
-	)
-	(wire
-		(pts
-			(xy 74.295 133.35) (xy 74.295 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5cc96a1-b783-4307-ad33-29f5afeea663")
 	)
 	(wire
 		(pts
@@ -7199,7 +6604,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 52.07) (xy 92.71 52.07)
+			(xy 85.09 52.07) (xy 87.63 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7326,16 +6731,6 @@
 			(type default)
 		)
 		(uuid "bd12beed-31db-4f51-b766-7ece769a951f")
-	)
-	(wire
-		(pts
-			(xy 74.295 125.73) (xy 74.295 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0e635ca-15fd-4574-84e6-41f8d57235a5")
 	)
 	(wire
 		(pts
@@ -7569,7 +6964,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 123.19) (xy 78.105 123.19)
+			(xy 66.04 123.19) (xy 78.105 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7586,16 +6981,6 @@
 			(type default)
 		)
 		(uuid "e9e58d73-058c-42af-a073-2a538a95df67")
-	)
-	(wire
-		(pts
-			(xy 66.04 123.19) (xy 74.295 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f39845-9845-46e3-851b-1a5caace6400")
 	)
 	(wire
 		(pts
@@ -7626,16 +7011,6 @@
 			(type default)
 		)
 		(uuid "f20e2d16-399d-4a07-8d38-bee6b050e323")
-	)
-	(wire
-		(pts
-			(xy 80.01 52.07) (xy 82.55 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f54eb8d8-97bf-4fb2-b992-46603d0d403f")
 	)
 	(wire
 		(pts
@@ -8909,7 +8284,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 92.71 62.23 0)
+		(at 87.63 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8918,7 +8293,7 @@
 		(fields_autoplaced yes)
 		(uuid "24d548a4-a765-4b64-9ef5-d7cdc097324d")
 		(property "Reference" "#PWR04"
-			(at 92.71 66.04 0)
+			(at 87.63 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +8302,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 92.71 58.42 0)
+			(at 87.63 58.42 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8936,7 +8311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 62.23 0)
+			(at 87.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +8320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 62.23 0)
+			(at 87.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +8329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 92.71 68.58 0)
+			(at 87.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,160 +8432,6 @@
 			(project "sn"
 				(path "/8e571ea1-e609-42a9-8b64-66323e72e50c"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Coil:Ferrite_470Ohm_0603_1.0A")
-		(at 77.47 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a248f61-9d50-4972-9cd3-b7e3752d4f87")
-		(property "Reference" "L1"
-			(at 77.47 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220Ohm"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-			(at 77.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.murata.com/en-global/api/pdfdownloadapi?cate=luNoiseSupprFilteChipFerriBead&partno=BLM18PG471SN1%23"
-			(at 77.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 77.47 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "NDUC-12579"
-			(at 77.47 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Frequency" "100MHz"
-			(at 77.47 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1615df2b-4931-4d0c-9d68-fdecc661ab42")
-		)
-		(pin "1"
-			(uuid "2e57de65-4b72-40de-a818-acc8a0f389f9")
-		)
-		(instances
-			(project "sn"
-				(path "/8e571ea1-e609-42a9-8b64-66323e72e50c"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 71.12 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3013fe6b-0bb1-432e-a1d5-aae1c0014da8")
-		(property "Reference" "D2"
-			(at 73.66 163.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD3.3"
-			(at 73.66 166.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 71.12 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 71.12 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 71.12 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bad2c04c-826d-492e-b85c-fe48d7223c2d")
-		)
-		(pin "2"
-			(uuid "d499d013-81d8-417c-a83a-32a690161c7a")
-		)
-		(instances
-			(project "sn"
-				(path "/8e571ea1-e609-42a9-8b64-66323e72e50c"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9913,77 +9134,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 74.295 129.54 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43d302da-2edb-42e1-bccb-40ee824a79ae")
-		(property "Reference" "D4"
-			(at 71.755 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD3.3"
-			(at 71.755 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 74.295 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 74.295 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 74.295 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2a133bf-0da4-40c0-8f6a-a9f80a728554")
-		)
-		(pin "2"
-			(uuid "bf47a52d-0ee0-4b5f-84ef-c210e5dc6bf7")
-		)
-		(instances
-			(project "sn"
-				(path "/8e571ea1-e609-42a9-8b64-66323e72e50c"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 161.29 0)
 		(unit 1)
@@ -10304,7 +9454,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5817")
-		(at 86.36 68.58 180)
+		(at 81.28 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10313,7 +9463,7 @@
 		(fields_autoplaced yes)
 		(uuid "4db58e3e-c0ca-4528-8bba-8f6546509e73")
 		(property "Reference" "D1"
-			(at 86.6775 62.23 0)
+			(at 81.5975 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +9471,7 @@
 			)
 		)
 		(property "Value" "1N5817"
-			(at 86.6775 64.77 0)
+			(at 81.5975 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +9479,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 86.36 64.135 0)
+			(at 81.28 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +9488,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 86.36 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +9497,7 @@
 			)
 		)
 		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 86.36 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10796,7 +9946,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
-		(at 99.06 68.58 0)
+		(at 93.98 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10804,7 +9954,7 @@
 		(dnp no)
 		(uuid "6943884b-05bb-4f9c-9ef7-fa3123d1d585")
 		(property "Reference" "#FLG04"
-			(at 99.06 66.675 0)
+			(at 93.98 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,7 +9963,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 99.06 65.024 0)
+			(at 93.98 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +9971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 68.58 0)
+			(at 93.98 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,7 +9980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 68.58 0)
+			(at 93.98 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,7 +9989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 68.58 0)
+			(at 93.98 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,72 +10348,6 @@
 			(project "sn"
 				(path "/8e571ea1-e609-42a9-8b64-66323e72e50c"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81683430-7705-4ef6-8129-a5e90c082449")
-		(property "Reference" "#PWR016"
-			(at 71.12 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87e0e3dd-577d-4ab1-9c33-fc8d7e2b27cb")
-		)
-		(instances
-			(project "sn"
-				(path "/8e571ea1-e609-42a9-8b64-66323e72e50c"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12223,73 +11307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 74.295 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a54f4d43-9f43-460f-bd56-535b0baaca13")
-		(property "Reference" "#PWR026"
-			(at 74.295 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.295 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.295 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.295 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.295 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c3a1030-927c-4482-92bb-943821734aa0")
-		)
-		(instances
-			(project "sn"
-				(path "/8e571ea1-e609-42a9-8b64-66323e72e50c"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
 		(at 176.53 60.96 0)
 		(unit 1)
@@ -12440,90 +11457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Coil:Ferrite_470Ohm_0603_1.0A")
-		(at 77.47 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb24c4a2-57e9-4a6c-95e1-8a8050fafc05")
-		(property "Reference" "L2"
-			(at 77.47 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220Ohm"
-			(at 77.47 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-			(at 77.47 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.murata.com/en-global/api/pdfdownloadapi?cate=luNoiseSupprFilteChipFerriBead&partno=BLM18PG471SN1%23"
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 77.47 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "NDUC-12579"
-			(at 77.47 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Frequency" "100MHz"
-			(at 77.216 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ad784e0-e42b-4548-830d-78e34c33a9d6")
-		)
-		(pin "1"
-			(uuid "b9fd552b-cb6a-43e2-a22d-e0fc1185564e")
-		)
-		(instances
-			(project "sn"
-				(path "/8e571ea1-e609-42a9-8b64-66323e72e50c"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 170.18 0)
 		(unit 1)
@@ -12591,7 +11524,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 92.71 46.99 0)
+		(at 87.63 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12600,7 +11533,7 @@
 		(fields_autoplaced yes)
 		(uuid "c78ca7f1-7a4a-45a9-ad7b-d76acc866882")
 		(property "Reference" "#PWR09"
-			(at 92.71 50.8 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,7 +11542,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 92.71 43.18 0)
+			(at 87.63 43.18 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12618,7 +11551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 46.99 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12627,7 +11560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 46.99 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12636,7 +11569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 92.71 53.34 0)
+			(at 87.63 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13070,7 +12003,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5817")
-		(at 86.36 52.07 180)
+		(at 81.28 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13079,7 +12012,7 @@
 		(fields_autoplaced yes)
 		(uuid "d66ed1eb-3735-4c3a-a08d-39f1622d532e")
 		(property "Reference" "D3"
-			(at 86.6775 58.42 0)
+			(at 81.5975 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13087,7 +12020,7 @@
 			)
 		)
 		(property "Value" "1N5817"
-			(at 86.6775 55.88 0)
+			(at 81.5975 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13095,7 +12028,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 86.36 47.625 0)
+			(at 81.28 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13104,7 +12037,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 86.36 52.07 0)
+			(at 81.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13113,7 +12046,7 @@
 			)
 		)
 		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 86.36 52.07 0)
+			(at 81.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
